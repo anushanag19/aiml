@@ -1,0 +1,299 @@
+question_id,question,Body_Ans1,Body_Ans2,Body_Ans3,Body_Ans4,wait
+AIML_1000,What do you understand by Artificial Intelligence,"Artificial intelligence is computer science technology that emphasizes creating intelligent machine that can mimic human behavior. Here Intelligent machines can be defined as the machine that can behave like a human, think like a human, and also capable of decision making. It is made up of two words, ""Artificial"" and ""Intelligence,"" which means the ""man-made thinking ability.""
+With artificial intelligence, we do not need to pre-program the machine to perform a task; instead, we can create a machine with the programmed algorithms, and it can work on its own","AI can be described as an area of computer science that simulates human intelligence in machines. It's about smart algorithms making decisions based on the available data.
+
+Whether it's Amazon's Alexa or a self-driving car, the goal is to mimic human intelligence at lightning speed (and with a reduced rate of error).",,,60
+AIML_1001,Why do we need Artificial Intelligence,"The goal of Artificial intelligence is to create intelligent machines that can mimic human behavior. We need AI for today's world to solve complex problems, make our lives more smoothly by automating the routine work, saving the manpower, and to perform many more other tasks.",,,,60
+AIML_1002,Give some real-world applications of AI? Give some real-world applications of AI,"Google Search Engine: When we start writing something on the google search engine, we immediately get the relevant recommendations from google, and this is because of different AI technologies.
+Ridesharing Applications: Different ride-sharing applications such as Uber uses AI and machine learning to determine the type of ride, minimize the time once the car is hailed by the user, price of the ride, etc.
+Spam Filters in Email: The AI is also used for email spam filtering so that you can get the important and relevant emails only in your inbox. As per the studies, Gmail successfully filters 99.9% of spam mails.","Social Networking: Different social networking sites such as Facebook, Instagram, Pinterest, etc., use the AI technology for different purposes such as face recognition and friend suggestions, when you upload a photograph on Facebook, understanding the contextual meaning of an emoji in Instagram, and so on.
+Product recommendations: When we search for a product on Amazon, we get the recommendation for similar products, and this is because of different ML algorithms. Similarly, on Netflix, we get personalized recommendations for movies and web series.
+Sentient Analysis: Sentiment analysis (or opinion mining) is a natural language processing technique used to determine whether data is positive, negative or neutral. Sentiment analysis is often performed on textual data to help businesses monitor brand and product sentiment in customer feedback, and understand customer needs.","Some compelling examples of AI applications are:
+
+Chatbots
+Facial recognition
+Image tagging
+Natural language processing
+Sales prediction
+Self-driving cars
+Sentiment analysis",,60
+AIML_1003,What are the different domains/Subsets of AI,"Machine Learning
+Deep Learning
+Neural Network
+Expert System
+Fuzzy Logic
+Natural Language Processing
+Robotics
+Speech Recognition. Read More",,,,60
+AIML_1004,What are the types of Machine Learning,"Supervised Learning
+Unsupervised Learning
+Reinforcement Learning",,,,60
+AIML_1005,What is Supervised Learning,Supervised learning is a type of Machine learning in which the machine needs external supervision to learn from data. The supervised learning models are trained using the labeled dataset. Regression and Classification are the two main problems that can be solved with Supervised Machine Learning.,,,,60
+AIML_1006,What is Unsupervised Learning,"It is a type of machine learning in which the machine does not need any external supervision to learn from the data, hence called unsupervised learning. The unsupervised models can be trained using the unlabelled dataset. These are used to solve the Association and Clustering problems.",,,,60
+AIML_1007,What is Reinforcement Learning,"In Reinforcement learning, an agent interacts with its environment by producing actions, and learn with the help of feedback. The feedback is given to the agent in the form of rewards, such as for each good action, he gets a positive reward, and for each bad action, he gets a negative reward. There is no supervision provided to the agent. Q-Learning algorithm is used in reinforcement learning.",,,,60
+AIML_1008,What is Deep Learning,"Deep learning is a subset of Machine learning that mimics the working of the human brain. It is inspired by the human brain cells, called neurons, and works on the concept of neural networks to solve complex real-world problems. It is also known as the deep neural network or deep neural learning.",,,,60
+AIML_1009,Give some real-world applications of deep learning,"Adding different colors to the black&white images
+Computer vision
+Text generation
+Deep-Learning Robots, etc.",,,,60
+AIML_1010,Which programming language is used for AI,"Python
+Java
+Lisp
+R
+Prolog",,,,60
+AIML_1011, How is machine learning related to AI,"Machine learning is a subset or subfield of Artificial intelligence. It is a way of achieving AI. As both are the two different concepts and the relation between both can be understood as ""AI uses different Machine learning algorithms and concepts to solve the complex problems.""",,,,60
+AIML_1012,What is Markov's Decision process,"The solution for a reinforcement learning problem can be achieved using the Markov decision process or MDP. Hence, MDP is used to formalize the RL problem. It can be said as the mathematical approach to solve a reinforcement learning problem. The main aim of this process is to gain maximum positive rewards by choosing the optimum policy.","MDP has four elements, which are:
+A set of finite states S
+A set of finite actions A
+Rewards
+Policy Pa
+In this process, the agent performs an action A to take a transition from state S1 to S2 or from the start state to the end state, and while doing these actions, the agent gets some rewards. The series of actions taken by the agent can be defined as the policy.",,,60
+AIML_1013,What do you understand by the reward maximization,"Reward maximization term is used in reinforcement learning, and which is a goal of the reinforcement learning agent. In RL, a reward is a positive feedback by taking action for a transition from one state to another.","Reinforcement learning agent performs a good action by applying optimal policies, he gets a reward, and if he performs a bad action, one reward is subtracted. The goal of the agent is to maximize these rewards by applying optimal policies, which is termed as reward maximization.",,,60
+AIML_1014,What are parametric model,"The parametric models use a fixed number of the parameters to create the ML model. It considers strong assumptions about the data. The examples of the parametric models are Linear regression, Logistic Regression, Naive Bayes, Perceptron, etc.",,,,60
+AIML_1015,What are non-parametric model,"The non-parametric model uses flexible numbers of parameters. It considers a few assumptions about the data. These models are good for higher data and no prior knowledge. The examples of the non-parametric models are Decision Tree, K-Nearest Neighbour, SVM with Gaussian kernels, etc.",,,,60
+AIML_1016,What do you understand by the hyperparameter,"In machine learning, hyperparameter is the parameters that determine and control the complete training process. The examples of these parameters are Learning rate, Hidden Layers, Hidden units, Activation functions, etc. These parameters are external from the model. The selection of good hyperparameters makes a better algorithm.",,,,60
+AIML_1017,Explain the Hidden Markov model,"Hidden Markov model is a statistical model used for representing the probability distributions over a chain of observations. In the hidden markov model, hidden defines a property that it assumes that the state of a process generated at a particular time is hidden from the observer, and Markov defines that it assumes that the process satisfies the Markov property. The HMM models are mostly used for temporal data.
+The HMM is used in various applications such as reinforcement learning, temporal pattern recognition, etc.",,,,60
+AIML_1018,"What is Strong AI, and how is it different from the Weak AI","Strong AI: Strong AI is about creating real intelligence artificially, which means a human-made intelligence that has sentiments, self-awareness, and emotions similar to humans. It is still an assumption that has a concept of building AI agents with thinking, reasoning, and decision-making capabilities similar to humans.
+Weak AI: Weak AI is the current development stage of artificial intelligence that deals with the creation of intelligent agents and machines that can help humans and solve real-world complex problems. Siri and Alexa are examples of Weak AI programs.",,,,60
+AIML_1019,Which assessment is used to test the intelligence of the machine,Turing Test,,,,60
+AIML_1020,Give a brief introduction to the Turing test in AI," Turing test is one of the popular intelligence tests in Artificial intelligence. It is a test to determine that if a machine can think like a human or not. According to this test, a computer can only be said to be intelligent if it can mimic human responses under some particular conditions.
+In this test, three players are involved, the first player is a computer, the second player is a human responder, and the third player is the human interrogator, and the interrogator needs to find which response is from the machine on the basis of questions and answers.","The Turing test, named after Alan Turing, is a method of testing a machine's human-level intelligence. For example, in a human-versus-machine scenario, a judge will be tasked with identifying which terminal was occupied by a human and which was occupied by a computer based on individual performance.
+
+Whenever a computer can pass off as a human, it's deemed intelligent. The game has since evolved, but the premise remains the same.",,,60
+AIML_1021,What is overfitting,"When the machine learning algorithm tries to capture all the data points, and hence, as a result, captures noise also, then overfitting occurs in the model. Due to this overfitting issue, the algorithm shows the low bias, but the high variance in the output. Overfitting is one of the main issues in machine learning.",,,,60
+AIML_1022,What are the methods to overcome overfitting in Machine Learning,"Methods to avoid Overfitting in ML:
+Cross-Validation
+Training With more data
+Regularization
+Ensembling
+Removing Unnecessary Features
+Early Stopping the training.","The possibility of overfitting training data and carrying the noise of that data through to the test set, thereby providing inaccurate generalizations.
+
+There are three main methods to avoid overfitting:
+
+Keep the model simpler: reduce variance by taking into account fewer variables and parameters, thereby removing some of the noise in the training data.
+Use cross-validation techniques such as k-folds cross-validation.
+Use regularization techniques such as LASSO that penalize certain model parameters if they're likely to cause overfitting.",,,60
+AIML_1023,Tell one technique to avoid overfitting in neural networks,"Dropout Technique: The dropout technique is one of the popular techniques to avoid overfitting in the neural network models. It is the regularization technique, in which the randomly selected neurons are dropped during training.",,,,60
+AIML_1024,What is NLP,"NLP stands for Natural Language Processing, which is a branch of artificial intelligence. It enables machines to understand, interpret, and manipulate the human language.",,,,60
+AIML_1025,Explain different components of NLP,"Natural Language Understanding (NLU):
+To map the input to useful representations.
+To analyze the different aspects of the language
+Natural Language Generation (NLG):
+Text Planning
+Sentence Planning
+Text Realization",,,,60
+AIML_1026,What is the use of computer vision in AI,"Computer vision is a field of Artificial Intelligence that is used to train the computers so that they can interpret and obtain information from the visual world such as images. Hence, computer vision uses AI technology to solve complex problems such as image processing, object detections, etc.",,,,60
+AIML_1027,Explain the minimax algorithm along with the different terms,"Minimax algorithm is a backtracking algorithm used for decision making in game theory. This algorithm provides the optimal moves for a player by assuming that another player is also playing optimally.
+This algorithm is based on two players, one is called MAX, and the other is called the MIN.
+Following terminologies that are used in the Minimax Algorithm:
+Game tree: A tree structure with all possible moves.
+Initial State: The initial state of the board.
+Terminal State: Position of the board where the game finishes.
+Utility Function: The function that assigns a numeric value for the outcome of the game.",,,,60
+AIML_1028,What is game theory and it's important in AI,"Game theory is the logical and scientific study that forms a model of the possible interactions between two or more rational players. Here rational means that each player thinks that others are just as rational and have the same level of knowledge and understanding. In the game theory, players deal with the given set of options in a multi-agent situation, it means the choice of one player affects the choice of the other or opponent players.
+Game theory and AI are much related and useful to each other. In AI, the game theory is widely used to enable some of the key capabilities required in the multi-agent environment, in which multiple agents try to interact with each other to achieve a goal.
+Different popular games such as Poker, Chess, etc., are the logical games with the specified rules. To play these games online or digitally, such as on Mobile, laptop, etc., one has to create algorithms for such games. And these algorithms are applied with the help of artificial intelligence.","Game theory, developed by American mathematician Josh Nash, is essential to AI because it plays an underlying role in how these smart algorithms improve over time.
+
+At its most basic, AI is about algorithms that are deployed to find solutions to problems. Game theory is about players in opposition trying to achieve specific goals. As most aspects of life are about competition, game theory has many meaningful real-world applications.
+These problems tend to be dynamic. Some game theory problems are natural candidates for AI algorithms. So, whenever game theory is applied, multiple AI agents that interact with each other will only care about utility to itself.
+
+Data scientists within this space should be aware of the following games:
+Symmetric vs. asymmetric
+Perfect vs. imperfect information
+Cooperative vs. non-cooperative
+Simultaneous vs. sequential
+Zero-sum vs. non-zero-sum",,,60
+AIML_1029,What are some misconceptions about AI,"AI does not require humans
+AI is dangerous for humans
+AI has reached its peak stage
+AI will take your job
+AI is new technology","Many AI-related misconceptions are making the rounds in the age of fake news. The most common ones are:
+
+AI will replace humans
+AI systems aren't safe
+AI will lead to significant unemployment
+While these types of stories are common, they're far from the truth. Even though some AI-based technology is able to complete some tasks, for example, analyzing zettabytes of data in less than a second, it still needs humans to gather the data and define the patterns for identification.",,,60
+AIML_1030,What are the eigenvalues and eigenvectors,"Eigenvectors and eigenvalues are the two main concepts of Linear algebra.
+Eigenvectors are unit vectors that have a magnitude equal to 1.0.
+Eigenvalues are the coefficients that are applied to the eigenvectors, or these are the magnitude by which the eigenvector is scaled.","The directions along which a particular linear transformation compresses, flips, or stretches is called eigenvalue. Eigenvectors are used to understand these linear transformations.
+
+For example, to make better sense of the covariance of the covariance matrix, the eigenvector will help identify the direction in which the covariances are going. The eigenvalues will express the importance of each feature.
+
+Eigenvalues and eigenvectors are both critical to computer vision and ML applications. The most popular of these is known as principal component analysis for dimensionality reduction (e.g., eigenfaces for face recognition).",,,60
+AIML_1031,What is an Artificial neural network,"Artificial neural networks are the statistical model inspired by the functioning of human brain cells called neurons. These neural networks include various AI technologies such as deep learning and machine learning.
+An Artificial neural network or ANN consists of multiple layers, including the Input layer, Output Layer, and hidden layers.
+ANN, with the help of various deep learning techniques, is the AI tools to solve various complex problems like pattern recognition, facial recognition, and so on.","Neural networks in AI mathematically model how the human brain works. This approach enables the machine to think and learn as humans do. This is how smart technology today recognizes speech, objects, and more.",,,60
+AIML_1032,Name some commonly used Artificial Neural networks.,"Feedforward Neural Network
+Convolutional Neural Network
+Recurrent Neural Network
+Autoencoders",,,,60
+AIML_1033,What is reinforcement learning,"Reinforcement learning is a type of machine learning. In this, an agent interacts with its environment by producing actions, and learn with the help of feedback. The feedback is given to the agent in the form of rewards, such as for each good action, he gets a positive reward, and for each bad action, he gets a negative reward. There is no any labeled data or supervision is provided to the agent. In RL, the agent continuously does three things(performing actions, changing state, and getting the feedback) to explore the environment.
+The popular reinforcement learning algorithms are:
+Q-Learning
+SARSA(State Action Reward State Action)
+Deep Q Neural Network",,,,60
+AIML_1034,How does RL work,"The RL-based system mainly consists of the following components:
+
+Environment: The environment is the surrounding of the agent, where he needs to explore and act upon.
+Agent: The agent is the AI program that has sensors and actuators and the ability to perceive the environment.
+State: It is the situation that is returned by the environment to the agent.
+Reward: The feedback received to the agent after doing each action.
+In RL, the agent interacts with the environment in order to explore it by doing some actions. On each action, the state of agent gets changed or sometimes remains the same, and based on the type of action, and he gets a reward. The reward is feedback, which may be negative or positive based on the action.
+
+The goal of the agent is to maximize the positive reward and to achieve the goal of the problem.",,,,60
+AIML_1035,What are the different areas where AI has a great impact,"Following are some areas where AI has a great impact:
+
+Autonomous Transportation
+Education-system powered by AI.
+Healthcare
+Predictive Policing
+Space Exploration
+Entertainment, etc.",,,,60
+AIML_1036,Kindly explain different ways to evaluate the performance of the ML model,"Some popular ways to evaluate the performance of the ML model are:
+
+Confusion Matrix: It is N*N table with different sets of value that is used to determine the performance of the classification model in machine learning.
+F1 score: It is the harmonic mean of precision and recall, which is used as one of the best metrics to evaluate the ML model.
+Gain and lift charts: Gain & Lift charts are used to determine the rank ordering of the probabilities.
+AUC-ROC curve: The AUC-ROC is another performance metric. The ROC is the plot between the sensitivity.
+Gini Coefficient: It is used in the classification problems, also known as the Gini Index. It determines the inequality between the values of variables. The high value of the Gini represents a good model.
+Root mean squared error: It is one of the most popular metrics used for the evaluation of the regression model. It works by assuming that errors are unbiased and have a normal distribution.
+Cross-Validation: It is another popular technique for evaluating the performance of the machine learning model. In this, the models are trained on subsets of the input data and evaluated on the complementary subset of the data.","We have to first split the data set into training and test sets. You also have the option of using a cross-validation technique to further segment the data set into a composite of training and test sets within the data.
+
+Then you have to implement a choice selection of the performance metrics like the following:
+
+Confusion matrix
+Accuracy
+Precision
+Recall or sensitivity
+Specificity
+F1 score",,,60
+AIML_1037,"What is tensor flow, and how it is used in AI","Tensor flow is the open-source library platform developed by the Google Brain team. It is a math library used for several machine learning applications. With the help of tensor flow, we can easily train and deploy the machine learning models in the cloud.","TensorFlow is an open-source framework dedicated to ML. It's a comprehensive and highly adaptable ecosystem of libraries, tools, and community resources that help developers build and deploy ML-powered applications. Both AlphaGo and Google Cloud Vision were built on the Tensorflow platform.",,,60
+AIML_1038,What is DeepFace algorithm? Explain its working.,"DeepFace is deep learning facial recognition system created by a research group at Facebook, that uses the deep learning algorithms for the face verification that allows the photo tag suggestions to you when you upload a photo on Facebook. The deep face identifies the faces in the digital images using neural network models. The working of DeepFace is given in below steps:
+
+It first scans the uploaded images. It makes the 3-D model of the image, and then rotate that image into different angles.
+After that, it starts matching. To match that image, it uses a neural network model to determine the high-level similarities between other photos of a person. It checks for the different features such as the distance between the eyes, the shape of the nose, eyes color, etc.
+Then it does the recursive checking for 68 landmark testing, as each human face consists of 68 specific facial points.
+After mapping, it encodes the image and searches for the information of that person.",,,,60
+AIML_1039,What is a market-basket analysis?,"The market-basket analysis is a popular technique to find the associations between the items. It is frequently used by big retailers in order to get maximum profit. In this approach, we need to find combinations of items that are frequently bought together.
+
+For example, if a person buys bread, there are most of the chances that he will buy butter also. Hence, understanding such correlations can help retailers to grow their business by providing relevant offers to their customers.",,,,60
+AIML_1040,How can AI be used in fraud detection?,"The artificial intelligence can be broadly helpful in fraud detection using different machine learning algorithms, such as supervised and unsupervised learning algorithms. The rule-based algorithms of Machine learning helps to analyze the patterns for any transaction and block the fraudulent transactions.
+
+Below are the steps used in fraud detection using machine learning:
+
+Data extraction: The first step is data extraction. Data is gathered through a survey or with the help of web scraping tools. The data collection depends on the type of model, and we want to create. It generally includes the transaction details, personal details, shopping, etc.
+Data Cleaning: The irrelevant or redundant data is removed in this step. The inconsistency present in the data may lead to wrong predictions.
+Data exploration & analysis: This is one of the most crucial steps in which we need to find out the relation between different predictor variables.
+Building Models: Now, the final step is to build the model using different machine learning algorithms depending on the business requirement. Such as Regression or classification.",,,,60
+AIML_1041,"What is the inference engine, and why it is used in AI?","In artificial intelligence, the inference engine is the part of an intelligent system that derives new information from the knowledge base by applying some logical rules.
+
+It mainly works in two modes:
+Backward Chaining: It begins with the goal and proceeds backward to deduce the facts that support the goal.
+Forward Chaining: It starts with known facts, and asserts new facts.",,,,60
+AIML_1042,"What is a Bayesian network, and why is it important in AI?","Bayesian networks are the graphical models that are used to show the probabilistic relationship between a set of variables. It is a directed cycle graph that contains multiple edges, and each edge represents a conditional dependency.
+
+Bayesian networks are probabilistic, because these networks are built from a probability distribution, and also use probability theory for prediction and anomaly detection. It is important in AI as it is based on Bayes theorem and can be used to answer the probabilistic questions.",,,,60
+AIML_1043,"What is a heuristic function, and where is it used?","The heuristic function is used in Informed Search, and it finds the most promising path. It takes the current state of the agent as its input and produces the estimation of how close the agent is from the goal. The heuristic method, however, might not always give the best solution, but it guaranteed to find a good solution in a reasonable time. Heuristic function estimates how close a state is to the goal. It is represented by h(n), and it calculates the cost of an optimal path between the pair of states. The value of the heuristic function is always positive.
+
+Admissibility of the heuristic function is given as:
+h(n) <= h*(n)
+Here h(n) is heuristic cost, and h*(n) is the estimated cost. Hence heuristic cost should be less than or equal to the estimated cost.",,,,60
+AIML_1044,"Explain the term ""Q-Learning.""","Q-learning is a popular algorithm used in reinforcement learning. It is based on the Bellman equation. In this algorithm, the agent tries to learn the policies that can provide the best actions to perform for maximining the rewards under particular circumstances. The agent learns these optimal policies from past experiences.
+
+In Q-learning, the Q is used to represent the quality of the actions at each state, and the goal of the agent is to maximize the value of Q.",,,,60
+AIML_1045,What's the difference between strong AI and weak AI?,"The difference between the two is just like the terms sound. Strong AI can successfully imitate human intelligence and is at the core of advanced robotics.
+Weak AI can only predict specific characteristics that resemble human intelligence. Alexa and Siri are excellent examples of weak AI.
+
+Strong AI:
+Can be applied widely
+Extensive scope
+Human-level intelligence
+Processes data by using clustering and association
+Weak AI:
+Can be great at performing some simple tasks
+Uses both supervised and unsupervised learning
+The scope can be minimal",,,,60
+AIML_1046,What is collaborative filtering?,"Collaborative filtering can be described as a process of finding patterns from available information to build personalized recommendations. You can find collaborative filtering in action when you visit websites like Amazon and IMDB.
+
+Also known as social filtering, this approach essentially makes suggestions based on the recommendations and preferences of other people who share similar interests.",,,,60
+AIML_1047,Can you list some disadvantages related to linear models?,"There are many disadvantages to using linear models, but the main ones are:
+
+Errors in linearity assumptions
+Lacks autocorrelation
+It can't solve overfitting problems
+You can't use it to calculate outcomes or binary outcomes",,,,60
+AIML_1048,What's a feature vector?,"A feature vector is an n-dimensional vector that contains essential information that describes the characteristics of an object. For example, it can be an object's numerical features or a list of numbers taken from the output of a neural network layer.
+
+A data set is usually organized into multiple examples where each example will have several features. However, a feature vector won't have the same feature for numerous examples. Instead, each example will correspond to one feature vector that will contain all the numerical values for that example object.
+
+Feature vectors are often stacked into a design matrix. In this scenario, each row will be a feature vector for one example. Each column will feature all the examples that correspond to that particular feature. This means that it will be like a matrix, but with just one row and multiple columns (or a single column and multiple rows) like [1,2,3,5,6,3,2,0].",,,,60
+AIML_1049,What's selection bias? What other types of biases could you encounter during sampling?,"When you're dealing with a non-random sample, selection bias will occur due to flaws in the selection process. This happens when a subset of the data is consistently excluded because of a particular attribute. This exclusion will distort results and influence the statistical significance of the test.
+
+Other types of biases include survivorship bias and undercoverage bias. It's important to always consider and reduce such biases because you'll want your smart algorithms to make accurate predictions based on the data.",,,,60
+AIML_1050,What's a random forest? Could you explain its role in AI?,"A random forest is a data construct that's applied to ML projects to develop a large number of random decision trees while analyzing variables.
+These algorithms can be leveraged to improve the way technologies analyze complex data sets. The basic premise here is that multiple weak learners can be combined to build one strong learner.
+This is an excellent tool for AI and ML projects because it can work with large labeled and unlabeled data sets with a large number of attributes. It can also maintain accuracy when some data is missing. As it can model the importance of attributes, it can be used for dimensionality reduction.",,,,60
+AIML_1051,What are the different algorithm techniques you can use in AI and ML?,"Some algorithm techniques that can be leveraged are:
+
+Learning to learn
+Reinforcement learning (deep adversarial networks, q-learning, and temporal difference)
+Semi-supervised learning
+Supervised learning (decision trees, linear regression, naive bayes, nearest neighbor, neural networks, and support vector machines)
+Transduction
+Unsupervised learning (association rules and k-means clustering)",,,,60
+AIML_1052,How would you go about choosing an algorithm to solve a business problem?,"First, you have to develop a problem statement that's based on the problem provided by the business. This step is essential because it'll help ensure that you fully understand the type of problem and the input and the output of the problem you want to solve.
+The problem statement should be simple and no more than a single sentence. For example, let's consider enterprise spam that requires an algorithm to identify it.
+The problem statement would be: Is the email fake/spam or not? In this scenario, the identification of whether it's fake/spam will be the output.
+Once you have defined the problem statement, you have to identify the appropriate algorithm from the following:
+
+Any classification algorithm
+Any clustering algorithm
+Any regression algorithm
+Any recommendation algorithm
+Which algorithm you use will depend on the specific problem you're trying to solve. In this scenario, you can move forward with a clustering algorithm and choose a k-means algorithm to achieve your goal of filtering spam from the email system.
+While examples aren't always necessary when answering questions about artificial intelligence, sometimes it will help make it easier for you to get your point across.",,,,60
+AIML_1053,When is it necessary to update an algorithm?,You should update an algorithm when the underlying data source has been changed or whenever there's a case of non-stationarity. The algorithm should also be updated when you want the model to evolve as data streams through the infrastructure.,,,,60
+AIML_1054,What's regularization?,"When you have underfitting or overfitting issues in a statistical model, you can use the regularization technique to resolve it. Regularization techniques like LASSO help penalize some model parameters if they are likely to lead to overfitting.
+
+There are other methods that can be used to avoid overfitting, you can mention cross-validation techniques such as k-folds cross-validation.
+
+Another approach is to keep the model simple by taking into account fewer variables and parameters. Doing this helps remove some of the noise in the training data.",,,,60
+AIML_1055,"What's the difference between inductive, deductive, and abductive learning?","Inductive learning describes smart algorithms that learn from a set of instances to draw conclusions. In statistical ML, k-nearest neighbor and support vector machine are good examples of inductive learning.
+There are three literals in (top-down) inductive learning:
+Arithmetic literals
+Equality and inequality
+Predicates
+
+In deductive learning, the smart algorithms draw conclusions by following a truth-generating structure (major premise, minor premise, and conclusion) and then improve them based on previous decisions. In this scenario, the ML algorithm engages in deductive reasoning using a decision tree.
+
+Abductive learning is a DL technique where conclusions are made based on various instances. With this approach, inductive reasoning is applied to causal relationships in deep neural networks.",,,,60
+AIML_1056,What would you do if data in a data set were missing or corrupted?,"Whenever data is missing or corrupted, you either replace it with another value or drop those rows and columns altogether. In Pandas, both isNull() and dropNA() are handy tools to find missing or corrupted data and drop those values. You can also use the fillna() method to fill the invalid values in a placeholder - for example, 0.",,,,60
+AIML_1057,What's the trade-off between bias and variance?,"Bias is error due to erroneous or overly simplistic assumptions in the learning algorithm you're using. This can lead to the model underfitting your data, making it hard for it to have high predictive accuracy and for you to generalize your knowledge from the training set to the test set.
+Variance is error due to too much complexity in the learning algorithm you're using. This leads to the algorithm being highly sensitive to high degrees of variation in your training data, which can lead your model to overfit the data. You'll be carrying too much noise from your training data for your model to be very useful for your test data.
+
+The bias-variance decomposition essentially decomposes the learning error from any algorithm by adding the bias, the variance and a bit of irreducible error due to noise in the underlying dataset. Essentially, if you make the model more complex and add more variables, you'll lose bias but gain some variance in order to get the optimally reduced amount of error, you'll have to tradeoff bias and variance. You don't want either high bias or high variance in your model.",,,,60
+AIML_1058,What is the difference between supervised and unsupervised machine learning?,"Supervised learning requires training labeled data. For example, in order to do classification (a supervised learning task), you'll need to first label the data you'll use to train the model to classify data into your labeled groups. Unsupervised learning, in contrast, does not require labeling data explicitly.",,,,60
+AIML_1059,How is KNN different from k-means clustering?,"K-Nearest Neighbors is a supervised classification algorithm, while k-means clustering is an unsupervised clustering algorithm. While the mechanisms may seem similar at first, what this really means is that in order for K-Nearest Neighbors to work, you need labeled data you want to classify an unlabeled point into (thus the nearest neighbor part). K-means clustering requires only a set of unlabeled points and a threshold: the algorithm will take unlabeled points and gradually learn how to cluster them into groups by computing the mean of the distance between different points.
+
+The critical difference here is that KNN needs labeled points and is thus supervised learning, while k-means doesn't and is thus unsupervised learning.",,,,60
+AIML_1060,Explain how a ROC curve works.,The ROC curve is a graphical representation of the contrast between true positive rates and the false positive rate at various thresholds. It's often used as a proxy for the trade-off between the sensitivity of the model (true positives) vs the fall-out or the probability it will trigger a false alarm (false positives).,,,,60
+AIML_1061,Define precision and recall.,"Recall is also known as the true positive rate: the amount of positives your model claims compared to the actual number of positives there are throughout the data. Precision is also known as the positive predictive value, and it is a measure of the amount of accurate positives your model claims compared to the number of positives it actually claims. It can be easier to think of recall and precision in the context of a case where you've predicted that there were 10 apples and 5 oranges in a case of 10 apples. You'd have perfect recall (there are actually 10 apples, and you predicted there would be 10) but 66.7% precision because out of the 15 events you predicted, only 10 (the apples) are correct.",,,,60
+AIML_1062,What is Bayes' Theorem? How is it useful in a machine learning context?,"Bayes' Theorem gives you the posterior probability of an event given what is known as prior knowledge.
+
+Mathematically, it's expressed as the true positive rate of a condition sample divided by the sum of the false positive rate of the population and the true positive rate of a condition.
+Bayes' Theorem is the basis behind a branch of machine learning that most notably includes the Naive Bayes classifier. That's something important to consider when you're faced with machine learning interview questions.",,,,60
+AIML_1063,Why is Naive Bayes naive?,"Despite its practical applications, especially in text mining, Naive Bayes is considered Naive because it makes an assumption that is virtually impossible to see in real-life data: the conditional probability is calculated as the pure product of the individual probabilities of components. This implies the absolute independence of features - a condition probably never met in real life.
+
+To put it whimsically, a Naive Bayes classifier that figured out that you liked pickles and ice cream would probably naively recommend you a pickle ice cream.",,,,60
+AIML_1064,Explain the difference between L1 and L2 regularization.,"L2 regularization tends to spread error among all the terms, while L1 is more binary/sparse, with many variables either being assigned a 1 or 0 in weighting. L1 corresponds to setting a Laplacean prior on the terms, while L2 corresponds to a Gaussian prior.",,,,60
+AIML_1065,What's the difference between Type I and Type II error?,"Type I error is a false positive, while Type II error is a false negative. Briefly stated, Type I error means claiming something has happened when it hasn't, while Type II error means that you claim nothing is happening when in fact something is.
+
+A clever way to think about this is to think of Type I error as telling a man he is pregnant, while Type II error means you tell a pregnant woman she isn't carrying a baby.",,,,60
+AIML_1066,What's a Fourier transform?,"A Fourier transform is a generic method to decompose generic functions into a superposition of symmetric functions. The Fourier transform finds the set of cycle speeds, amplitudes, and phases to match any time signal. A Fourier transform converts a signal from time to frequency domain - it's a very common way to extract features from audio signals or other time series such as sensor data.",,,,60
+AIML_1067,What's the difference between a generative and discriminative model?,A generative model will learn categories of data while a discriminative model will simply learn the distinction between different categories of data. Discriminative models will generally outperform generative models on classification tasks.,,,,60
+AIML_1068,How is a decision tree pruned?,"Pruning is what happens in decision trees when branches that have weak predictive power are removed in order to reduce the complexity of the model and increase the predictive accuracy of a decision tree model. Pruning can happen bottom-up and top-down, with approaches such as reduced error pruning and cost complexity pruning.
+
+Reduced error pruning is perhaps the simplest version: replace each node. If it doesn't decrease predictive accuracy, keep it pruned. While simple, this heuristic actually comes pretty close to an approach that would optimize for maximum accuracy.",,,,60
+AIML_1069,What's the kernel trick and how is it useful?,"The Kernel trick involves kernel functions that can enable in higher-dimension spaces without explicitly calculating the coordinates of points within that dimension: instead, kernel functions compute the inner products between the images of all pairs of data in a feature space. This allows them the very useful attribute of calculating the coordinates of higher dimensions while being computationally cheaper than the explicit calculation of said coordinates. Many algorithms can be expressed in terms of inner products. Using the kernel trick enables us effectively run algorithms in a high-dimensional space with lower-dimensional data.",,,,60

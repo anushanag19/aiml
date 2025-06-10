@@ -1,0 +1,13 @@
+1. Drop 1st column
+2. Give column names properly--done
+3. Drop sku-done
+4. From url derive quantity
+5. drop url
+6. Check for spaces and trim
+7. Check fro format of all columns, mrp, sp ,, discount should be numeric
+8. Missing values check and fill-- for discount is null 0
+9. Descirption col has special cahracters remove them--noise removal
+10. Add vendor column Put BigBasket
+11. Check for duplicate records
+12. Invalid data
+

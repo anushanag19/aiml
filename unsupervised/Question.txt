@@ -1,0 +1,17 @@
+Background subtraction using GMM : 
+
+Background subtraction is a technique for separating out foreground elements from the background and is done by generating a foreground mask. This technique is used for detecting dynamically moving objects from static cameras.
+
+ 
+
+File in the link has an image on which background subtraction has to be done.
+
+you have to fill the empty code in the notebook to get the final output.
+
+ 
+
+File : Mini Project - 1 GMM Background_Subtraction.zip
+
+ 
+
+Note: If you are sending the assignment post-deadline,  please send the submission to all the TAs.

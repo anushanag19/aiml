@@ -1,0 +1,126 @@
+Data Quality issues:
+
+Missing values
+Duplicate data
+Inconsistent / Invalid data
+Noise
+Outliers
+
+Data preprocessing
+
+1. feature selection
+2. data transformation
+
+Imoact of missing data:
+Incompatible in Scikitlearn
+Missing data imputation may distort variable distribution
+Affect the performance of Machine Learning Models
+
+Missing data emchanism:
+Missing completely at random (MCAR)
+Missing at random (MAR)
+Not missing at random (NMAR):
+
+
+Imputation Techniques for numeric values:
+Mean / Median Imputation
+Random Sampling Imputation
+Adding a new variable to indicate missingness
+Imputation of NA by values at the end of distribution
+Imputation of NA by arbitrary values
+
+Imputation Techniques for  categorical values:
+Imputation by most frequent category
+In categorical variables treating NA as an additional category
+
+MCAR:
+
+The probability of missing is same for all the observations.
+There is no relationship between the missing values and any other values in the dataset.
+Removing such missing values will not effect the inferences made.
+
+
+MAR: men vs women age 
+The probability of a missing values depends on available information i.e it depends on other variables in the dataset.
+
+NAMR: depression example
+The missing values exist as an indication of a certain class.
+
+Dealing of data issues:
+
+Duplicate Data:
+Delete old data
+Merge duplicate records
+
+
+Noise:
+Filter out the noise component
+This may result in partial loss of data if not done carefully.
+ Outlier:
+ Algorithms like Linear Regression, K-Nearest Neighbor, Adaboost are sensitive to noise.
+Outlier can significantly skew the distribution of your data.
+Outliers can be identified using summary statistics and plots of the data.
+
+99% of the observations of a variable 
+following a normal distribution lie 
+within mean +/- 3 X standard deviation 
+
+Calculate the quantiles and the 
+    Inter-quantile range(IQR) 
+IQR = 75th Quantile – 25th Quantile
+Upperlimit = 75th Quantile + IQR x 1.5
+Lowerlimit = 25th Quantile + IQR x 1.5
+
+
+Feature creation:
+
+Create new attributes that can capture important information in a data set much more efficiently than the original attributes.
+
+Three general methodologies:
+Feature Extraction
+Mapping Data to New Space
+Feature Construction
+
+
+Data transformation tasks:
+Normalization
+Attribute construction
+Aggregation
+Attribute Subset Selection
+Discretization
+Generalization
+
+
+If X is a distance variable and in kilometers and we change it into miles 
+Gradient descent converges faster when all the variables are in the similar scale
+Feature scaling helps decrease the time of finding support vectors 
+Euclidian distances are sensitive to feature magnitude
+For distance-based methods, normalization helps prevent attributes with initially large ranges (e.g., income) from out-weighing attributes with initially smaller ranges (e.g., binary attributes).
+
+Algorithms that are sensitive to feature magnitude:
+Linear and Logistic Regression
+Neural Networks
+Support Vector Machines
+KNN
+K-Means Clustering
+Linear Discriminant Analysis (LDA)
+Principal Component Analysis (PCA)
+
+
+Types of common scaling operations or Normalization methods
+Min-max normalization
+z-score normalization
+Normalization by decimal scaling
+
+
+-------
+
+Discretization:
+Unsupervised discretization:
+Equal-interval binning
+Equal-frequency binning
+
+Supervised discretization:
+Entropy-based discretization
+It tries to maximize the “purity” of the intervals (i.e. to contain as less as possible mixture of class labels)
+
